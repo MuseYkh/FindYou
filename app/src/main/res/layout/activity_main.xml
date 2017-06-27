@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myClare="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:hint="请输入监控的手机"
+        android:layout_height="wrap_content" />
+
+    <cn.muse.findyou.view.MyButton
+        android:id="@+id/btn_inComing"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="24sp"
+        android:background="@drawable/bg_edit_normal"
+        android:textColor="@android:color/white"
+        android:text="来电监控"
+        myClare:drawable="@mipmap/ic_launcher"
+        />
+
+    <cn.muse.findyou.view.MyButton
+        android:id="@+id/btn_smsComing"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:background="@drawable/bg_edit_normal"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="短信监控"
+        myClare:drawable="@mipmap/ic_launcher"
+        />
+    <cn.muse.findyou.view.MyButton
+        android:id="@+id/btn_outComing"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:background="@drawable/bg_edit_normal"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="去电监控"
+        myClare:drawable="@mipmap/ic_launcher"
+        />
+    <cn.muse.findyou.view.MyButton
+        android:id="@+id/btn_switch"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:background="@drawable/bg_edit_normal"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="开启监控"
+        myClare:drawable="@mipmap/ic_launcher"
+        />
+
+
+
+</LinearLayout>
