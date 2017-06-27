@@ -31,7 +31,6 @@ public class PhoneService extends Service{
     private SMSRecevier smsRecevier;
     private OutComingRecevier outComingRecevier;
 
-
     @Override
     public void onCreate() {
         super.onCreate();
